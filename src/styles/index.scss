@@ -1,15 +1,14 @@
-@import 'variables';
-@import 'reset';
-@import 'header';
-@import 'nav';
-@import 'catalog';
-@import 'card';
-@import 'stars';
+@import './variables';
+@import './reset';
+@import './header';
+@import './nav';
+@import './stars';
+@import './card';
+@import './catalog';
 
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
+  font-family: $font-family;
   color: $color-text;
-  background-color: #fff;
+  background-color: $color-bg;
 }
