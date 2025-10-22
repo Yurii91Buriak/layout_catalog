@@ -1,9 +1,11 @@
 .catalog {
   display: grid;
   justify-content: center;
-  gap: $gap-y $gap-x;
-  padding: $pad-y $pad-x;
+  gap: 48px 46px;
+  padding: 50px 40px;
   background: $color-bg;
+  max-width: 944px;
+  margin: 0 auto;
 
   grid-template-columns: repeat(1, $card-width);
 
