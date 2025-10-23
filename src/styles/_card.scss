@@ -1,18 +1,18 @@
 .card {
-  width: 200px;
+  width: $card-width;
   height: 408px;
-  border-radius: 5px;
+  border-radius: $radius;
   background: $color-white;
   border: 1px solid $color-border;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding: $space-4;
   box-sizing: border-box;
   color: $color-main;
   transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+    transform $transition,
+    box-shadow $transition;
 
   position: relative;
   will-change: transform;
@@ -26,7 +26,7 @@
   &__image {
     width: 160px;
     height: 134px;
-    border-radius: 5px;
+    border-radius: $radius;
     background: center / cover no-repeat url('../images/imac.jpeg');
     margin-bottom: 16px;
   }
@@ -43,7 +43,7 @@
     a {
       color: $color-main; // #060b35
       text-decoration: none;
-      transition: color 0.3s ease;
+      transition: color $transition;
 
       &:hover {
         text-decoration: underline;
@@ -52,7 +52,7 @@
   }
 
   &:hover .card__title a {
-    color: #34568b; // $color-title-hover
+    color: $color-title-hover;
   }
 
   &__code {
@@ -103,9 +103,9 @@
   &__buy {
     width: 166px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: $radius;
     background: $color-accent;
-    color: #fff;
+    color: $color-white;
     font-weight: 600;
     font-size: 13px;
     line-height: 40px;
@@ -113,9 +113,9 @@
     text-decoration: none;
     border: 2px solid transparent;
     transition:
-      background 0.3s ease,
-      color 0.3s ease,
-      border-color 0.3s ease;
+      background $transition,
+      color $transition,
+      border-color $transition;
 
     &:hover {
       background: #fff;

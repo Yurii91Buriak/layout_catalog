@@ -1,8 +1,8 @@
 .catalog {
   display: grid;
   justify-content: center;
-  gap: 48px 46px;
-  padding: 50px 40px;
+  gap: $gap-y $gap-x;
+  padding: $pad-y $pad-x;
   background: $color-bg;
   max-width: 944px;
   margin: 0 auto;

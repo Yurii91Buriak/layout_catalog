@@ -1,12 +1,12 @@
 .stars {
   display: inline-flex;
-  gap: 4px;
+  gap: $star-gap;
   line-height: 0;
   margin: 0;
 
   &__item {
-    width: 16px;
-    height: 16px;
+    width: $star-size;
+    height: $star-size;
     display: inline-block;
     background: url('../images/star.svg') center / contain no-repeat;
   }
