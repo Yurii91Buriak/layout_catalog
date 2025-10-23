@@ -5,14 +5,15 @@
   justify-content: space-between;
   background: $color-white;
   padding: 0 $pad-x;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: $shadow-sm;
 
   &__logo {
     display: block;
 
-    .logo__img {
+    &-img {
       display: block;
-      width: 60px;
+      width: $logo-width;
+      max-width: 100%;
       height: auto;
     }
   }

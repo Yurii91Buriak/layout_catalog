@@ -4,7 +4,9 @@
   gap: $gap-y $gap-x;
   padding: $pad-y $pad-x;
   background: $color-bg;
-  max-width: 944px;
+
+  max-width: calc(4 * $card-width + 3 * $gap-x);
+
   margin: 0 auto;
 
   grid-template-columns: repeat(1, $card-width);
@@ -17,7 +19,7 @@
     grid-template-columns: repeat(3, $card-width);
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: $breakpoint-lg) {
     grid-template-columns: repeat(4, $card-width);
   }
 }

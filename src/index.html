@@ -2,133 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catalog</title>
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="./styles/index.scss"
-    />
+    <link rel="stylesheet" href="./styles/index.scss" />
   </head>
 
   <body>
     <header class="header">
-      <a
-        href="index.html"
-        class="logo"
-      >
+      <a href="index.html" class="header__logo">
         <img
           src="./images/logo.png"
           alt="Moyo logo"
-          class="logo__img"
+          class="header__logo-img"
         />
       </a>
 
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a
-              href="#"
-              class="nav__link is-active"
-            >
-              Apple
-            </a>
+            <a href="#" class="nav__link is-active">Apple</a>
           </li>
           <li class="nav__item">
-            <a
-              href="#"
-              class="nav__link"
-            >
-              Samsung
-            </a>
+            <a href="#" class="nav__link">Samsung</a>
           </li>
           <li class="nav__item">
-            <a
-              href="#"
-              class="nav__link"
-            >
-              Smartphones
-            </a>
+            <a href="#" class="nav__link">Smartphones</a>
           </li>
           <li class="nav__item">
-            <a
-              href="#"
-              class="nav__link"
-              data-qa="nav-hover"
-            >
-              Laptops & Computers
-            </a>
+            <a href="#" class="nav__link"
+              data-qa="nav-hover">Laptops & Computers</a>
           </li>
           <li class="nav__item">
-            <a
-              href="#"
-              class="nav__link"
-            >
-              Gadgets
-            </a>
+            <a href="#" class="nav__link">Gadgets</a>
           </li>
           <li class="nav__item">
-            <a
-              href="#"
-              class="nav__link"
-            >
-              Tablets
-            </a>
+            <a href="#" class="nav__link">Tablets</a>
           </li>
           <li class="nav__item">
-            <a
-              href="#"
-              class="nav__link"
-            >
-              Photo
-            </a>
+            <a href="#" class="nav__link">Photo</a>
           </li>
           <li class="nav__item">
-            <a
-              href="#"
-              class="nav__link"
-            >
-              Video
-            </a>
+            <a href="#" class="nav__link">Video</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main class="catalog">
-      <!-- Card 1 -->
-      <article
-        class="card"
-        data-qa="card"
-      >
-        <a
-          href="#"
-          class="card__image"
-        >
+      <!-- Card template -->
+      <article class="card" data-qa="card">
+        <a href="#" class="card__image">
           <img
             src="./images/imac.jpeg"
             alt="Apple iMac 27 Retina"
           />
         </a>
+
         <h2 class="card__title">
-          <a
-            href="#"
-            class="card__link"
-          >
+          <a href="#" class="card__link">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </a>
         </h2>
+
         <div class="card__code">Product code: 195434</div>
+
         <div class="card__meta">
           <div class="stars stars--4">
             <span class="stars__item"></span>
@@ -139,35 +82,26 @@
           </div>
           <div class="card__meta-reviews">Reviews: 5</div>
         </div>
+
         <div class="card__price-row">
           <div class="card__price-label">Price:</div>
           <div class="card__price-amount">$2,199</div>
         </div>
-        <a
-          href="#"
-          class="card__buy"
-          data-qa="card-hover"
-        >
-          BUY
-        </a>
+
+        <a href="#" class="card__buy"
+          data-qa="card-hover">BUY</a>
       </article>
 
-      <!-- Cards 2–8 -->
+      <!-- Card 2 -->
       <article class="card">
-        <a
-          href="#"
-          class="card__image"
-        >
+        <a href="#" class="card__image">
           <img
             src="./images/imac.jpeg"
             alt="Apple iMac 27 Retina"
           />
         </a>
         <h2 class="card__title">
-          <a
-            href="#"
-            class="card__link"
-          >
+          <a href="#" class="card__link">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </a>
         </h2>
@@ -186,29 +120,19 @@
           <div class="card__price-label">Price:</div>
           <div class="card__price-amount">$2,199</div>
         </div>
-        <a
-          href="#"
-          class="card__buy"
-        >
-          BUY
-        </a>
+        <a href="#" class="card__buy">BUY</a>
       </article>
 
+      <!-- Card 3 -->
       <article class="card">
-        <a
-          href="#"
-          class="card__image"
-        >
+        <a href="#" class="card__image">
           <img
             src="./images/imac.jpeg"
             alt="Apple iMac 27 Retina"
           />
         </a>
         <h2 class="card__title">
-          <a
-            href="#"
-            class="card__link"
-          >
+          <a href="#" class="card__link">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </a>
         </h2>
@@ -227,29 +151,19 @@
           <div class="card__price-label">Price:</div>
           <div class="card__price-amount">$2,199</div>
         </div>
-        <a
-          href="#"
-          class="card__buy"
-        >
-          BUY
-        </a>
+        <a href="#" class="card__buy">BUY</a>
       </article>
 
+      <!-- Card 4 -->
       <article class="card">
-        <a
-          href="#"
-          class="card__image"
-        >
+        <a href="#" class="card__image">
           <img
             src="./images/imac.jpeg"
             alt="Apple iMac 27 Retina"
           />
         </a>
         <h2 class="card__title">
-          <a
-            href="#"
-            class="card__link"
-          >
+          <a href="#" class="card__link">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </a>
         </h2>
@@ -268,29 +182,19 @@
           <div class="card__price-label">Price:</div>
           <div class="card__price-amount">$2,199</div>
         </div>
-        <a
-          href="#"
-          class="card__buy"
-        >
-          BUY
-        </a>
+        <a href="#" class="card__buy">BUY</a>
       </article>
 
+      <!-- Card 5 -->
       <article class="card">
-        <a
-          href="#"
-          class="card__image"
-        >
+        <a href="#" class="card__image">
           <img
             src="./images/imac.jpeg"
             alt="Apple iMac 27 Retina"
           />
         </a>
         <h2 class="card__title">
-          <a
-            href="#"
-            class="card__link"
-          >
+          <a href="#" class="card__link">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </a>
         </h2>
@@ -309,29 +213,19 @@
           <div class="card__price-label">Price:</div>
           <div class="card__price-amount">$2,199</div>
         </div>
-        <a
-          href="#"
-          class="card__buy"
-        >
-          BUY
-        </a>
+        <a href="#" class="card__buy">BUY</a>
       </article>
 
+      <!-- Card 6 -->
       <article class="card">
-        <a
-          href="#"
-          class="card__image"
-        >
+        <a href="#" class="card__image">
           <img
             src="./images/imac.jpeg"
             alt="Apple iMac 27 Retina"
           />
         </a>
         <h2 class="card__title">
-          <a
-            href="#"
-            class="card__link"
-          >
+          <a href="#" class="card__link">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </a>
         </h2>
@@ -350,29 +244,19 @@
           <div class="card__price-label">Price:</div>
           <div class="card__price-amount">$2,199</div>
         </div>
-        <a
-          href="#"
-          class="card__buy"
-        >
-          BUY
-        </a>
+        <a href="#" class="card__buy">BUY</a>
       </article>
 
+      <!-- Card 7 -->
       <article class="card">
-        <a
-          href="#"
-          class="card__image"
-        >
+        <a href="#" class="card__image">
           <img
             src="./images/imac.jpeg"
             alt="Apple iMac 27 Retina"
           />
         </a>
         <h2 class="card__title">
-          <a
-            href="#"
-            class="card__link"
-          >
+          <a href="#" class="card__link">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </a>
         </h2>
@@ -391,29 +275,19 @@
           <div class="card__price-label">Price:</div>
           <div class="card__price-amount">$2,199</div>
         </div>
-        <a
-          href="#"
-          class="card__buy"
-        >
-          BUY
-        </a>
+        <a href="#" class="card__buy">BUY</a>
       </article>
 
+      <!-- Card 8 -->
       <article class="card">
-        <a
-          href="#"
-          class="card__image"
-        >
+        <a href="#" class="card__image">
           <img
             src="./images/imac.jpeg"
             alt="Apple iMac 27 Retina"
           />
         </a>
         <h2 class="card__title">
-          <a
-            href="#"
-            class="card__link"
-          >
+          <a href="#" class="card__link">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </a>
         </h2>
@@ -432,12 +306,7 @@
           <div class="card__price-label">Price:</div>
           <div class="card__price-amount">$2,199</div>
         </div>
-        <a
-          href="#"
-          class="card__buy"
-        >
-          BUY
-        </a>
+        <a href="#" class="card__buy">BUY</a>
       </article>
     </main>
   </body>
